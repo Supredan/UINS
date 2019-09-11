@@ -1,0 +1,8 @@
+prefix=/home/supdan/code/UINS_ws/src/cmake-build-debug/devel
+
+Name: crazyflie_demo
+Description: Description of crazyflie_demo
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/supdan/code/UINS_ws/src/cmake-build-debug/devel/lib 
+Requires: roscpp

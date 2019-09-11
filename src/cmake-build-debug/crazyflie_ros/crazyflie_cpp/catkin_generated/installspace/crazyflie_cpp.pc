@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: crazyflie_cpp
+Description: Description of crazyflie_cpp
+Version: 0.0.1
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lcrazyflie_cpp
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/supdan/code/UINS_ws/install
+
+Name: bitcraze_lps_estimator
+Description: Description of bitcraze_lps_estimator
+Version: 0.0.1
+Cflags: -I/home/supdan/code/UINS_ws/install/include
+Libs: -L/home/supdan/code/UINS_ws/install/lib 
+Requires: message_runtime

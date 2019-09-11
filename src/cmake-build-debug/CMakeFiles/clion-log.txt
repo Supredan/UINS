@@ -1,0 +1,79 @@
+/home/supdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX:PATH=/home/supdan/code/UINS_ws/devel -G "CodeBlocks - Unix Makefiles" /home/supdan/code/UINS_ws/src
+-- Using CATKIN_DEVEL_PREFIX: /home/supdan/code/UINS_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/supdan/code/UINS_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/supdan/code/UINS_ws/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/supdan/code/UINS_ws/src/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.18
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 9 packages in topological order:
+-- ~~  - crazyflie (metapackage)
+-- ~~  - crazyflie_cpp
+-- ~~  - crazyflie_description
+-- ~~  - crazyflie_tools
+-- ~~  - bitcraze_lps_estimator
+-- ~~  - crazyflie_demo
+-- ~~  - crazyflie_controller
+-- ~~  - crazyflie_driver
+-- ~~  - toa_imu
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'crazyflie'
+-- ==> add_subdirectory(crazyflie_ros/crazyflie)
+-- +++ processing catkin package: 'crazyflie_cpp'
+-- ==> add_subdirectory(crazyflie_ros/crazyflie_cpp)
+Using ROS (catkin_make)
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on '/usr/lib/x86_64-linux-gnu/libusb-1.0.so' but
+  neither '/usr/lib/x86_64-linux-gnu/libusb-1.0.so_INCLUDE_DIRS' nor
+  '/usr/lib/x86_64-linux-gnu/libusb-1.0.so_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  crazyflie_ros/crazyflie_cpp/ROS.cmake:18 (catkin_package)
+  crazyflie_ros/crazyflie_cpp/CMakeLists.txt:6 (include)
+
+
+-- +++ processing catkin package: 'crazyflie_description'
+-- ==> add_subdirectory(crazyflie_ros/crazyflie_description)
+-- +++ processing catkin package: 'crazyflie_tools'
+-- ==> add_subdirectory(crazyflie_ros/crazyflie_tools)
+Using ROS (catkin_make)
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   program_options
+-- +++ processing catkin package: 'bitcraze_lps_estimator'
+-- ==> add_subdirectory(lps-ros)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- bitcraze_lps_estimator: 1 messages, 0 services
+-- +++ processing catkin package: 'crazyflie_demo'
+-- ==> add_subdirectory(crazyflie_ros/crazyflie_demo)
+-- +++ processing catkin package: 'crazyflie_controller'
+-- ==> add_subdirectory(crazyflie_ros/crazyflie_controller)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'crazyflie_driver'
+-- ==> add_subdirectory(crazyflie_ros/crazyflie_driver)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- crazyflie_driver: 7 messages, 11 services
+-- +++ processing catkin package: 'toa_imu'
+-- ==> add_subdirectory(UINS)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+CMake Warning at UINS/CMakeLists.txt:25 (message):
+  OpenCV_VERSION: 3.3.1
+
+
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.2.92 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.14.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/supdan/code/UINS_ws/src/cmake-build-debug
